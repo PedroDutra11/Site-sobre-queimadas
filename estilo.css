@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+header {
+    background: rgb(109, 22, 22);
+    color: #faf9f6;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+	text-align: center;
+	padding: 15px;
+	background: rgb(109, 22, 22);
+    color: #faf9f6;
+}
+
+h2 {
+    color: rgb(109, 22, 22);
+}
+
+h3 {
+    color: #faf9f6;
+	background: rgb(109, 22, 22);
+	padding: 5px;
+}
+
+#menu {
+    padding: 15px;
+}
+
+#area-logo {
+    padding: 20px;
+    font-size: 25px;
+}
+
+#area-principal {
+    width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#conteudo-principal {
+    width: 660px;
+	float: left;
+}
+
+#area-lateral {
+    width: 240px;
+	float: right;
+}
+
+.conteudo {
+    padding: 20px;
+	margin-bottom: 20px;
+	background: #faf9f6;
+}
+
+.texto {
+    font-size: 1em;
+	border-bottom: 1px solid #faf9f6;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.lista {
+    font-size: 1em;
+	border-bottom: 1px solid #faf9f6;
+	padding-bottom: 10px;
+    padding-left: 5px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.conteudo-lateral {
+    background: #faf9f6;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.reportagens-laterais {
+    font-size: 0.9em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+    border-top: 1px dotted  #CCC;
+}
+
+.texto-rodape {
+    padding: 5px;
+}
+
+/*Formatação do menu*/
+
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+	color: rgb(109, 22, 22);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header a:link, header a:visited {
+	color: #faf9f6;
+	padding: 8px 12px;
+}
+
+header a:hover {
+	color: rgb(109, 22, 22);
+	background: #faf9f6;
+	text-decoration: none;
+}
