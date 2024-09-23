@@ -123,3 +123,9 @@ header a:hover {
 	background: #faf9f6;
 	text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+}
